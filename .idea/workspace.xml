@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8b7bbba-63cb-404e-87f2-1fb1164f81fc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bootstrap/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bootstrap/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/getResponse.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/rendering.jsx" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -40,10 +29,11 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            <state relative-caret-position="102">
+              <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
               <folding>
-                <marker date="1509376965650" expanded="true" signature="1832:2822" ph="..." />
+                <element signature="e#0#41#0" expanded="true" />
+                <marker date="1509377062401" expanded="true" signature="1789:2779" ph="..." />
               </folding>
             </state>
           </provider>
@@ -133,32 +123,6 @@
             <path>
               <item name="poke-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="poke-app" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poke-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poke-app" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poke-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poke-app" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poke-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poke-app" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poke-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poke-app" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -208,12 +172,12 @@
       <workItem from="1509260154362" duration="942000" />
       <workItem from="1509261517275" duration="4228000" />
       <workItem from="1509280188665" duration="1837000" />
-      <workItem from="1509356194397" duration="15200000" />
+      <workItem from="1509356194397" duration="15296000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78613000" />
+    <option name="totallyTimeSpent" value="78709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="419" y="142" width="1400" height="876" extended-state="0" />
@@ -288,7 +252,8 @@
         <state relative-caret-position="3757">
           <caret line="221" column="26" lean-forward="false" selection-start-line="221" selection-start-column="26" selection-end-line="221" selection-end-column="26" />
           <folding>
-            <marker date="1509376965650" expanded="true" signature="1832:2822" ph="..." />
+            <element signature="e#0#41#0" expanded="true" />
+            <marker date="1509377062401" expanded="true" signature="1789:2779" ph="..." />
           </folding>
         </state>
       </provider>
@@ -322,7 +287,8 @@
         <state relative-caret-position="3757">
           <caret line="221" column="26" lean-forward="false" selection-start-line="221" selection-start-column="26" selection-end-line="221" selection-end-column="26" />
           <folding>
-            <marker date="1509376965650" expanded="true" signature="1832:2822" ph="..." />
+            <element signature="e#0#41#0" expanded="true" />
+            <marker date="1509377062401" expanded="true" signature="1789:2779" ph="..." />
           </folding>
         </state>
       </provider>
@@ -364,7 +330,8 @@
         <state relative-caret-position="1054">
           <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
-            <marker date="1509376965650" expanded="true" signature="1832:2822" ph="..." />
+            <element signature="e#0#41#0" expanded="true" />
+            <marker date="1509377062401" expanded="true" signature="1789:2779" ph="..." />
           </folding>
         </state>
       </provider>
@@ -382,7 +349,8 @@
         <state relative-caret-position="1207">
           <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
-            <marker date="1509376965650" expanded="true" signature="1832:2822" ph="..." />
+            <element signature="e#0#41#0" expanded="true" />
+            <marker date="1509377062401" expanded="true" signature="1789:2779" ph="..." />
           </folding>
         </state>
       </provider>
@@ -424,7 +392,8 @@
         <state relative-caret-position="1122">
           <caret line="66" column="41" lean-forward="false" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="41" />
           <folding>
-            <marker date="1509376965650" expanded="true" signature="1832:2822" ph="..." />
+            <element signature="e#0#41#0" expanded="true" />
+            <marker date="1509377062401" expanded="true" signature="1789:2779" ph="..." />
           </folding>
         </state>
       </provider>
@@ -474,7 +443,8 @@
         <state relative-caret-position="340">
           <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding>
-            <marker date="1509376965650" expanded="true" signature="1832:2822" ph="..." />
+            <element signature="e#0#41#0" expanded="true" />
+            <marker date="1509377062401" expanded="true" signature="1789:2779" ph="..." />
           </folding>
         </state>
       </provider>
@@ -492,7 +462,8 @@
         <state relative-caret-position="357">
           <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
           <folding>
-            <marker date="1509376965650" expanded="true" signature="1832:2822" ph="..." />
+            <element signature="e#0#41#0" expanded="true" />
+            <marker date="1509377062401" expanded="true" signature="1789:2779" ph="..." />
           </folding>
         </state>
       </provider>
@@ -586,10 +557,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        <state relative-caret-position="102">
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
           <folding>
-            <marker date="1509376965650" expanded="true" signature="1832:2822" ph="..." />
+            <element signature="e#0#41#0" expanded="true" />
+            <marker date="1509377062401" expanded="true" signature="1789:2779" ph="..." />
           </folding>
         </state>
       </provider>

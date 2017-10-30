@@ -5,7 +5,6 @@ import 'react-bootstrap-table/dist/react-bootstrap-table-all.min.css';
 import {BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
 import imageFormatter from './imageFormatter';
 import enumFormatter from './enumFormatter';
-import {container} from 'react-bootstrap';
 
 const pokemonsType = {
     'normal': 'normal',
