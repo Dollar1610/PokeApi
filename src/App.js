@@ -254,7 +254,7 @@ class App extends Component {
 
   render() {
     return (
-        <div className='container'>
+        <div className='container' style={{marginTop:'80px'}}>
             <BootstrapTable data={ this.state.pokemons } borderd = {true} pagination={true} options={ {sizePerPage:5} }>
                 <TableHeaderColumn dataField='id' filter={ { type: 'TextFilter', delay: 1000 } } isKey>#</TableHeaderColumn>
                 <TableHeaderColumn dataField='name' filter={ { type: 'TextFilter', delay: 1000 } } >Name</TableHeaderColumn>
