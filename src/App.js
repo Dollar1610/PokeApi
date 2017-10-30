@@ -209,12 +209,12 @@ let    pokemon_attr19 = {
 };
 
 const pokemonsType = {
-    0: 'normal',
-    1: 'poison',
-    2: 'bug',
-    3: 'flying',
-    4: 'water',
-    5: 'fire'
+    'normal': 'normal',
+    'poison': 'poison',
+    'bug': 'bug',
+    'flying': 'flying',
+    'water': 'water',
+    'fire': 'fire'
 };
 class App extends Component {
     constructor(props) {
@@ -262,7 +262,7 @@ class App extends Component {
                 <TableHeaderColumn dataField='id' filter={ { type: 'TextFilter', delay: 1000 } } isKey>#</TableHeaderColumn>
                 <TableHeaderColumn dataField='name' filter={ { type: 'TextFilter', delay: 1000 } } >Name</TableHeaderColumn>
                 <TableHeaderColumn dataField='image'  dataFormat={imageFormatter}>Avatar</TableHeaderColumn>
-                <TableHeaderColumn dataField='type'  formatExtraData={ pokemonsType }
+                <TableHeaderColumn dataField='type' filterFormatted dataFormat={ enumFormatter } formatExtraData={ pokemonsType }
                                    filter={ {type: 'SelectFilter', options: pokemonsType } } >Type</TableHeaderColumn>
                 <TableHeaderColumn dataField='abilities' filter={ { type: 'TextFilter', delay: 1000 } } >Abilities</TableHeaderColumn>
             </BootstrapTable>
