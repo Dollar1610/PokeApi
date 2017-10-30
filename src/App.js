@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import { Button } from 'react-bootstrap';
 import './bootstrap/css/bootstrap.min.css';
 import '../node_modules/react-bootstrap-table/dist/react-bootstrap-table-all.min.css';
@@ -237,7 +236,6 @@ class App extends Component {
                 .then((response) => {
                         response.json()
                             .then((data) => {
-                                console.log(data);
                                 this.setState((prevState) => {
                                     prevState.pokemons[i].id = i;
                                     prevState.pokemons[i].name = data.name;
@@ -257,7 +255,6 @@ class App extends Component {
   render() {
     return (
         <div className='container'>
-          <Button onClick={this.save} bsStyle='primary'>Add Pokemon</Button>
             <BootstrapTable data={ this.state.pokemons } borderd = {true} pagination={true} options={ {sizePerPage:5} }>
                 <TableHeaderColumn dataField='id' filter={ { type: 'TextFilter', delay: 1000 } } isKey>#</TableHeaderColumn>
                 <TableHeaderColumn dataField='name' filter={ { type: 'TextFilter', delay: 1000 } } >Name</TableHeaderColumn>
@@ -266,6 +263,7 @@ class App extends Component {
                                    filter={ {type: 'SelectFilter', options: pokemonsType } } >Type</TableHeaderColumn>
                 <TableHeaderColumn dataField='abilities' filter={ { type: 'TextFilter', delay: 1000 } } >Abilities</TableHeaderColumn>
             </BootstrapTable>
+            <Button onClick={this.save}  bsStyle='primary'>Add Pokemons</Button>
         </div>
     );
   }
